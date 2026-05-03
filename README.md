@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 AuraCare: The Curated Sanctuary
 
-## Getting Started
+[![Next.js 16](https://img.shields.io/badge/Next.js-16.2.4-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![React 19](https://img.shields.io/badge/React-19.2.4-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Tailwind CSS v4](https://img.shields.io/badge/Tailwind_CSS-v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Framer Motion](https://img.shields.io/badge/Framer_Motion-12-FF0055?style=for-the-badge&logo=framer&logoColor=white)](https://www.framer.com/motion/)
 
-First, run the development server:
+AuraCare (Aura Wellness) is a high-end, cinematic web application that brings a premium, editorial sanctuary experience to the digital space. Built with cutting-edge web technologies, it features an expertly crafted "Curated Sanctuary" design system with fluid micro-interactions, stunning asymmetrical layouts, and a calming aesthetic.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🎥 Project Demo
+
+<!-- ========================================== -->
+<!-- 📹 ADD YOUR DEMO VIDEO / GIF / LINK HERE 📹 -->
+<!-- Example: <video src="./demo.mp4" controls="controls" width="100%" /> -->
+<!-- ========================================== -->
+
+---
+
+## ✨ Key Features
+
+- **Cinematic Experience**: Smooth, luxury-eased `[0.16, 1, 0.3, 1]` Framer Motion animations create an interactive flow that feels alive.
+- **Bespoke Design System**: A Material Design 3-inspired semantic color system centered around muted earth tones and deep, restorative contrasts.
+- **Editorial Typography**: Pairing **Noto Serif** for elegant headlines and **Inter** for readable, precise body text.
+- **Fluid & Responsive Architecture**: Built to adapt seamlessly across all devices, featuring dynamic Top and Bottom Navigation bars.
+- **Next-Gen Tech Stack**: Harnessing the absolute latest features of React 19 and Next.js 16 (App Router) combined with Tailwind CSS v4's new architecture.
+
+## 🛠 Tech Stack
+
+- **Framework**: Next.js 16.2.4 (App Router)
+- **Library**: React 19.2.4
+- **Language**: TypeScript 5.x
+- **Styling**: Tailwind CSS 4.x (Variables driven)
+- **Animations**: Framer Motion 12.38.0
+- **Icons**: Material Symbols Outlined
+
+## 🚀 Getting Started
+
+Follow these steps to run the AuraCare sanctuary on your local machine:
+
+### Prerequisites
+
+Make sure you have Node.js 20+ installed.
+
+### Installation
+
+1. Clone the repository and navigate into the directory:
+   ```bash
+   git clone <repository-url>
+   cd auracare
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   # or
+   pnpm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) to view the application.
+
+## 📂 Project Structure
+
+```text
+auracare/
+├── app/                  # Next.js 16 App Router pages
+│   ├── portal/           # User account and profile 
+│   ├── schedule/         # Booking and scheduling system
+│   ├── store/            # Services and products
+│   ├── globals.css       # Core design tokens and Tailwind setup
+│   └── layout.tsx        # Global UI (Header, Footer, Navs)
+├── components/           # Shared React components (TopAppBar, BottomNavBar)
+└── public/               # Static assets
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎨 Design Philosophy
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+AuraCare embraces a **"Curated Sanctuary"** aesthetic. Every pixel is intentional.
+- **Colors**: Dominated by earthy primary tones (`#6c5e06`), deep secondaries, and pristine surface colors to simulate a calming real-world spa environment.
+- **Animations**: Standardized to use "staggered container" and "fade in up" variants to ensure elements materialize softly and gracefully.
+- **Interactions**: Subtle magnetic hover effects and scale-downs on tap to provide premium tactile feedback.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+> *"True luxury is the space to breathe deeply, surrounded by intentional beauty and unparalleled care."*
