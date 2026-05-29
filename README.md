@@ -9,7 +9,7 @@ AuraCare (Aura Wellness) is a high-end, cinematic web application that brings a 
 
 ---
 
-## 🎥 Project Demo
+## 🎥 Project Demo 
 
 <!-- ========================================== -->
 <!-- 📹 ADD YOUR DEMO VIDEO / GIF / LINK HERE 📹 -->
